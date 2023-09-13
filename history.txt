@@ -1,0 +1,35 @@
+    1  cd /d/Users/acer/Desktop/JS_platzi/
+    2  ls
+    3  cd curso_practico_proyecto/
+    4  git clone https://github.com/Cesarsol117/JavaScript_desde_0.git
+    5  ls
+    6  cd JavaScript_desde_0/
+    7  ls
+    8  ls -lf
+    9  mkdir proyecto_calculadora
+   10  cd proyecto_calculadora
+   11  touch index.html
+   12  mkdir script
+   13  cd script.js
+   14  cd script
+   15  touch script.js
+   16  cd .
+   17  mkdir styles
+   18  cd styles
+   19  touch style.css
+   20  cd ..
+   21  cd ..
+   22  cd ..
+   23  head .gitignore
+   24  git statu
+   25  git status
+   26  ls -lh
+   27  ls -lf
+   28  ls -la
+   29  git add .gitignore
+   30  git status
+   31  git add .
+   32  git commit -am "proyectos JavaScript"
+   33  git status
+   34  git push
+   35  history > history.txt
