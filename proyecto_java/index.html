@@ -118,7 +118,7 @@
         <!-- fin de mobile menu -->
     </nav>
     <!--  -------------------------inicio del aside ------------- -->
-    <aside class="product-detail inactive">
+    <aside id="shopping-cart-container"class="inactive">
         <div class="title-container">
             <img src="./icons/flechita.svg" alt="arrow">
             <p class="title">My order</p>
@@ -169,6 +169,25 @@
         </div>
     </aside>
     <!-- ------------------- fin aside ------------------------- -->
+    <!-- ___________________detalle del carrito_________________ -->
+    <aside id="productDetail" >
+        <div class="product-detail-close">
+            <img src="./media/icons/icon_close.png" alt="close">
+        </div>
+        <img src="https://images.pexels.com/photos/276517/pexels-photo-276517.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+            alt="bike">
+        <div class="product-info">
+            <p>$35,00</p>
+            <p>Bike</p>
+            <p>With its practical position, this bike also fulfills a decorative function, add your hall or workspace.
+            </p>
+            <button class="primary-button add-to-cart-button">
+                <img src="../media/icons/bt_add_to_cart.svg" alt="add to cart">
+                Add to cart
+            </button>
+        </div>
+    </aside>
+    <!-- _______________________________________________________ -->
     <!-- ............. main container ------------------------- -->
     <section class="main-container">
         <div class="cards-container"> <!-- 0 -->
@@ -178,8 +197,8 @@
                     alt="">
                 <div class="product-info"> 3
                     <div> 4
-                        <p>$120,00</p> 4
-                        <p>Bike</p> 5
+                        <p>$120,00</p> 5
+                        <p>Bike</p> 6
                     </div>
                     <figure> 7
                        8 <img src="./icons/bt_add_to_cart.svg" alt="">
